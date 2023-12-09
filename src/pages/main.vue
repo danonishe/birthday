@@ -18,7 +18,7 @@
 Не грустить и не болеть,<br>
 Наслаждаться каждым часом,<br>
 Ни о чем не сожалеть!</span></div>
-<div><img src="../assets/pictures/pic1.png"/></div>
+<div><img src="../assets/pictures/pic13.png"/></div>
 
 <div><span>Помните, что у Вас есть друзья, которые вас всегда поддержат и обнимут!</span></div>
 <div><img src="../assets/pictures/pic2.png"/></div>
@@ -40,14 +40,20 @@ export default {
 
   img
   {
-    width: 50%;
+    width: 80%;
     margin: 2%;
+
   }
+
   span{
-    @include adaptiv-font(25, 17);
+    @include adaptiv-font(30, 11);
+    font-family: 'Merriweather', serif;
   }
   h1 
   {
-    @include adaptiv-font(35, 25);
+    @include adaptiv-font(40, 28);
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    
   }
 </style>

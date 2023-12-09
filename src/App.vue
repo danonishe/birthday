@@ -1,13 +1,13 @@
 <template>
-  <nav class="navbar"  style="background-color: #95C8D8;">
+  <nav class="navbar"  style="background-color: #95C8D8;font-family: 'Merriweather', serif;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Happy birthday!!!</a>
+    <a class="navbar-brand" href="#"> Happy birthday!!!</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#"  @click="$router.push('/')">Главная</a>
+        <a class="nav-link active" aria-current="page" href="#"  @click="$router.push('/')" >Главная</a>
         <a class="nav-link" @click="$router.push('/Nastya')" href="#">Настюша</a>
         <a class="nav-link" @click="$router.push('/Maks')" href="#">Максюша</a>
       </div>
