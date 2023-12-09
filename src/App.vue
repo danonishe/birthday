@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar"  style="background-color: #95C8D8;font-family: 'Merriweather', serif;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"> Happy birthday!!!</a>
+    <a class="navbar-brand" href="#" > Happy birthday!!!</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
